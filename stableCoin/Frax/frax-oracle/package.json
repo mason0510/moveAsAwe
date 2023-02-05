@@ -1,0 +1,30 @@
+{
+  "name": "frax-oracle",
+  "version": "1.0.0",
+  "description": "an on-chain price oracle for the frax stablecoin protocol",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FraxFinance/frax-oracle.git"
+  },
+  "keywords": [
+    "frax",
+    "oracle"
+  ],
+  "author": "jason huan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FraxFinance/frax-oracle/issues"
+  },
+  "homepage": "https://github.com/FraxFinance/frax-oracle#readme",
+  "dependencies": {
+    "@uniswap/v2-core": "^1.0.1",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0"
+  }
+}
